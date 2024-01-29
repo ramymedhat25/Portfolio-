@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#hobbies">hobbies</a></li>
+                <li><a href="#birthday">birthday</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <img src="welcome.png" alt="Welcome">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hello! I'm Ramy Medhat , web developer.</p>
+                <p>I love crafting beautiful and functional websites. Seeking a position in life to utilize my skills and abilities and achieve professional growth while being resourceful, innovative, and flexible. To add valuable assets to your esteemed organization as an active member, working in a dynamic professional environment with a growing organization and utilize my creativity and innovative thinking for the benefit of the organization and myself.</p>
+            </div>
+        </section>
+
+            <section id="hobbies">
+                <h1>Hobbies</h1>
+                <div class="hobbies-grid">
+                        <img src="hobby1.jpg" alt="Hobby 1" title="Hobby 1">
+                        <img src="hobby2.jpg" alt="Hobby 2" title="Hobby 1">
+                        <img src="hobby3.jpg" alt="Hobby 3" title="Hobby 1">
+                </div>
+            </section>  
+            <section id="birthday">
+                <div class="birthday-content">
+                    <img id="birthday-img" src="birthday.jpg" alt="Birthday Image">
+                    <form id="birthday-form" style="display: none;">
+                        <textarea id="birthday-message" placeholder="Write a kind message..." rows="4" cols="50"></textarea>
+                        <button id="submit-button" type="button">Submit</button>
+                    </form>
+                    <div id="thank-you" style="display: none;">
+                        <p>Thank you for your message!</p>
+                    </div>
+                </div>
+            </section>            
+            
+            <section id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <!-- Add more input radio buttons as needed -->
+            
+                <div class="slides">
+                    <div class="slide">
+                        <h2 class="country-name">England</></h2>
+                        <label for="slide1"><img src="image1.jpg" alt="England"></label>
+                    </div>
+                    <div class="slide">
+                        <label for="slide2"><img src="image2.jpg" alt="Swizerland"></label>
+                        <p class="country-name">Swizerland</p>
+                    </div>
+                    <div class="slide">
+                        <label for="slide3"><img src="image3.jpg" alt=""></label>
+                        <p class="country-name">UAE</p>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+        <section id="cv">
+            <div class="personal-info">
+                <h2>Personal Information</h2>
+                <p>Name: Ramy Medhat</p>
+                <p>Email: ramymedhat97@gmail.com</p>
+                <p>Phone: +201090012501</p>
+                <!-- Add more personal info as needed -->
+            </div>
+        
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        
+            <div class="education">
+                <h2>Education</h2>
+                <p>NUB - Bachelor's Degree in Civil Engineering</p>
+                <p>Year of Graduation: 2022</p>
+                <p>GPA: 3.38 </p>
+            </div>
+        
+            <div class="work-experience">
+                <h2>Work Experience</h2>
+                <p>EL IMAN - Civil Engineer</p>
+                <p>Date: From January 2022</p>
+            </div>
+        </section>
+        
+        <section id="services">
+            <h1>Services</h1>
+            <div class="service">
+                <img src="web1.jpg" alt="Service 1">
+                <h3>Frontend Development</h3>
+                <p>Writing HTML, CSS, and JavaScript code for the visual elements, layout, and interactivity of websites.</p>
+                </div>
+            <div class="service">
+                <img src="back.jpg" alt="Service 2">
+                <h3>Backend Development</h3>
+                <p>Building server-side logic, databases, and APIs using languages like Python, Node.js, PHP, or Ruby on Rails..</p>
+            </div>
+            <div class="service">
+                <img src="back.jpg" alt="Service 2">
+                <h3>Website Creation</h3>
+                <p>Developing websites from scratch or using frameworks like Django, Flask, React, Angular, or Vue.js..</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h1>Contact US</h1>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="social-media">
+                <h2>Follow Us:</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ramymedhat25"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/ramymedhat6"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/ramymedhat25/"><img src="instagram.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/ramymedhat97/"><img src="linkedin.png" alt="linkedin"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+<footer>
+    <marquee behavior="" direction="">
+        <p class="footer-down">Copyrights © are reserved to ITI.</p>
+    </marquee>
+</footer>
+</body>
+</html>
